@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Titre du cours -->
+    <title>Mon Cours</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut Icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <div>
+            <h1><span>&#9755;</span> Texte - h1 </h1>
+            <p>Je me suis <em>renforcé</em> dans la <strong>progammation.</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet animi doloribus eius eligendi excepturi fugiat minus nemo ratione saepe sed sit, tenetur, vel! Ad pariatur tempore ullam ut voluptates.</p>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Photos - h2</h2>
+            <img src="01Mai-ConvertImage.jpg" height="200" alt="Image paysage">
+        </div>
+        <div>
+            <h3>Photos - h3</h3>
+            <ol>
+                <li>ul = Unordered List</li>
+                <li>ul = Unordered List</li>
+                <li>ul = Unordered List</li>
+            </ol>
+            <ol>
+                <li>ol = Ordered List</li>
+                <li>ol = Ordered List</li>
+                <li>ol = Ordered List</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Les tableaux - h4</h4>
+                <table border="1" width="50%"> <!-- border: permet de mettre une bordure et prend 50% de la page -->
+                    <!-- Légende -->
+                    <caption>Populations d'europe</caption>
+                    <!-- En-tête -->
+                    <thead>
+                        <tr>
+                            <th>Pays</th>
+                            <th>Populations</th>
+                        </tr>
+                    </thead>
+                    <!-- Corps du tableau -->
+                    <tbody>
+                        <tr>
+                            <td>France</td>
+                            <td>67M</td>
+                        </tr>
+                        <tr>
+                            <td>Belgique</td>
+                            <td>77M</td>
+                        </tr>
+                        <tr>
+                            <td>Martinique</td>
+                            <td>87M</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div>
+            <h5> Liens - h5</h5>
+            <a href="https://charisma.fr" target="_blank">My Church</a><br>
+            <a href="https://htmlcheatsheet.com/" target="_blank">Mes icônes HTML</a><br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">Mes symbolles HTML</a>
+        </div>
+        <div>
+            <h6>Videos - h6</h6>
+            <video src="video.mp4" height="200" autoplay loop muted>Mon paysage</video>
+        </div>
+    </section>
+    <br>
+    <!-- Formulaires -->
+    <section>
+        <h2>Formulaires</h2>
+        <form action="/action.php" method="post">
+            <label for="name">Nom : </label>
+            <input type="text" id="name" placeholder="Entrez votre nom"><br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Entrer votre âge" min="0" max="99" step="2" value="10">
+
+            <!-- Input Select -->
+            <label for="gender">Genre</label>
+            <select id="gender">
+                <option value="homme">Homme</option>
+                <option selected value="femme">Femme</option>
+                <option value="enfant">Enfant</option>
+            </select>
+
+            <!-- Input radio -->
+            <div>
+                <label for="human">Humain</label>
+                <input type="radio" name="type" id="human" checked>
+
+                <label for="dog">Chien</label>
+                <input type="radio" name="type" id="dog">
+
+                <label for="cat">Chat</label>
+                <input type="radio" name="type" id="cat">
+            </div>
+
+            <textarea cols="30" rows="10" placeholder="Entrez votre demande ici"></textarea><br>
+            
+            <!-- Input Checkbox -->
+            <label><input type="checkbox">Accepter les CGV</label><br>
+            <input type="submit" value="Valider"><br>
+            <!-- Mail & envoi de fichier -->
+            <footer>
+                <a href="mailto:tydesinfos@gmail.com">Ecrivez moi</a><br>
+                <a href="Note.txt" download="nom-du-fichier">Télécharger la note</a>
+            </footer>
+        </form>
+    </section>
+</body>
+</html>

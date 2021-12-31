@@ -1,0 +1,17 @@
+Shortcut Icon : est utilisé pour définir une icon
+Section : sert à matérialiser les grosses parties
+em : pour mettre en italique.
+span : l'élément span ne revient pas à la ligne.
+alt : sert à afficher le nom de la photo ou fichier pour l'identifier
+header : générealement c'est la section qui nous permet de mettre la barre de navigation
+a (anchor) : lien
+
+* Pour séparer 2 liens, il faut utiliser <br> ; a n'est pas une balise inline-block
+autoplay : joue automatiquement
+loop : joue en boucle.
+muted : en silence
+---- Formulaires ----
+Pour connecter un label avec un input, on met l'id dans l'input avec le nom du label et quand on clique sur le label, l'input clignote
+step : par (step 2 = 2 par 2)
+Value : on détermine la valeur de base dans l'input.
+Selected : sélectionne par défaut.
